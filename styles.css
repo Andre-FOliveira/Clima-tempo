@@ -104,8 +104,15 @@ footer {
     border: 1px solid #FE5104;
     margin-top: 40px;
     border-radius: 20px;
-    text-align: center;
     letter-spacing: 5px;
     word-spacing: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.linkedin{
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
