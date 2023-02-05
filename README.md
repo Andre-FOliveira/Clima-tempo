@@ -38,7 +38,8 @@ O projeto consiste em apresentar as informações do clima da cidade pesquisada 
 
 ## 🔖 Site
 
-Você pode visualizar a pagina do projeto através [DESSE LINK](andre-foliveira.github.io/Clima-tempo/).
+Você pode visualizar a pagina do projeto através [DESSE LINK](https://andre-foliveira.github.io/Clima-tempo/).
+
 
 
 ---
