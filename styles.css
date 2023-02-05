@@ -96,3 +96,16 @@ h2 {
     margin-top: 30px;
     text-align: center;
 }
+
+footer {
+    font-size: smaller;
+    color: #FE5104;
+    background-color: #7c7c7c2b;
+    border: 1px solid #FE5104;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 12px;
+
+}
