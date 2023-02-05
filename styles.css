@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+
+}
+
+.card {
+    background-color: #000000;
+    width: 90%;
+    max-width: 420px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 22px;
+    border: solid 3px #FE5104;
+}
+
+
+input {
+    width: calc(100% - 100px);
+    border: solid 2px #FE5104;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #FFFFFF;
+}
+
+.lupa {
+    height: 25px;
+}
+
+button {
+    border: solid 2px #FE5104;
+    outline: none;
+    padding: 11px;
+    border-radius: 55px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.dados {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.sensacao-termica {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nuvens {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+
+}
+
+.descricao {
+    text-transform: capitalize;
+
+}
+
+.umidade {
+    margin-top: 30px;
+    text-align: center;
+}
