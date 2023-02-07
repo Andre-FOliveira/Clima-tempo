@@ -66,6 +66,17 @@ h2 {
     text-align: center;
 }
 
+.flat{
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+.cx1{
+    display: flex;
+    justify-content: center;
+}
+
 .temp {
     text-align: center;
     font-size: 30px;

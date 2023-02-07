@@ -5,7 +5,8 @@ let chave = "92559c27a7ada31d5a4a69f4ea980e00"
 function colocarNaTela(dados) {
     console.log(dados)
 
-    document.querySelector(".cidade").innerHTML = dados.name + " - " + dados.sys.country
+    document.querySelector(".cidade").innerHTML = dados.name 
+    document.querySelector(".flat").src = "https://www.countryflagicons.com/FLAT/64/" + dados.sys.country +".png"
     document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
     document.querySelector(".sensacao-termica").innerHTML = "Sensação Termica " + Math.floor(dados.main.feels_like) + "°C"
     document.querySelector(".descricao").innerHTML = dados.weather[0].description
