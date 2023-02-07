@@ -30,7 +30,7 @@ async function buscarCidade(cidade) {
 }
 
 function pesquisa() {
-    let cidade = document.querySelector(".input-city").value
+    let cidade = document.querySelector(".input-city").value.trim();
 
     buscarCidade(cidade)
 }
