@@ -16,6 +16,14 @@ body {
 
 }
 
+
+.acao{
+    height: 100px;
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
 .card {
     background-color: #000000;
     width: 90%;
