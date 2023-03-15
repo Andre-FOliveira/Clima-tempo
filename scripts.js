@@ -1,10 +1,25 @@
 
 let chave = "92559c27a7ada31d5a4a69f4ea980e00"
 
+const data = new Date()
+
+const dia = String(data.getDate()).padStart(2, '0' )
+const mes = String(data.getMonth() + 1).padStart(2, '0')
+const ano = data.getFullYear()
+
+const hora = String(data.getHours()).padStart(2, '0')
+const min = String(data.getMinutes()).padStart(2, '0')
+const seg = String(data.getSeconds()).padStart(2, '0')
+
+
+const dataAtual = `${dia}/${mes}/${ano} - ${hora}:${min}:${seg}`
+
+
 
 function colocarNaTela(dados) {
     console.log(dados)
-
+ 
+    document.getElementById("data").innerHTML = dataAtual + " Horario de Brasilia"
     document.querySelector(".cidade").innerHTML = dados.name
     document.querySelector(".flat").src = "https://www.countryflagicons.com/FLAT/64/" + dados.sys.country + ".png"
     document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
