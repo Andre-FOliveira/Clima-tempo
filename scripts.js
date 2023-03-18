@@ -19,7 +19,7 @@ const dataAtual = `${dia}/${mes}/${ano} - ${hora}:${min}:${seg}`
 function colocarNaTela(dados) {
     console.log(dados)
  
-    document.getElementById("data").innerHTML = dataAtual + " Horario de Brasilia"
+    document.getElementById("data").innerHTML = dataAtual
     document.querySelector(".cidade").innerHTML = dados.name
     document.querySelector(".flat").src = "https://www.countryflagicons.com/FLAT/64/" + dados.sys.country + ".png"
     document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
